@@ -1,7 +1,7 @@
 module.exports = {
   Admins: ["Id Admin"], //Admins of the bot
   ExpressServer: false, //If you wanted to make the website run or not
-  DefaultPrefix: process.env.Prefix || "kd", //Default prefix, Server Admins can change the prefix
+  DefaultPrefix: process.env.Prefix || "!", //Default prefix, Server Admins can change the prefix
   Port: 3001, //Which port website gonna be hosted
   SupportServer: "Support Server Link", //Support Server Link
   Token: process.env.Token || "Discord Bot Token", //Discord Bot Token
@@ -22,8 +22,8 @@ module.exports = {
   
   Presence: {
     status: "online", // You can show online, idle, and dnd
-    name: "with cuteness", // The message shown
-    type: "LISTENING", // PLAYING, WATCHING, LISTENING, STREAMING
+    name: "GYGINEE", // The message shown
+    type: "WATCHING", // PLAYING, WATCHING, LISTENING, STREAMING
   },
 
   //Lavalink
